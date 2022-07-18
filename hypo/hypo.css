@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+header {
+    background-color:rgb(148, 255, 255);
+    margin: -8px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.guoba > img {
+    width: 70px;
+}
+
+.lis li {
+    display: inline-block;
+    padding: 5px;
+}
+.lis a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+div.elemental {
+    margin: -8px;
+    padding: 255px;
+}
+
+div#elementos {
+    background-image: url('mond-melhor.jpg');
+    background-repeat: no-repeat;
+    background-position: center unset;
+    background-size: cover;
+}
+
+ul#hypo {
+    display: flex;
+    justify-content: space-around;
+}
+li > img {
+    width: 300px;
+}
+
+footer {
+    background-color: rgb(148, 255, 255);
+    text-align: center;
+    padding: 1px;
+    margin: -8px;
+}

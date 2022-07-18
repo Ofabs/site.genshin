@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+}
+header {
+    background-color:  rgb(148, 255, 255);
+    margin: -8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.guoba > img {
+    width: 70px;
+}
+
+div.elemental {
+    margin: -8px;
+    padding: 255px;
+}
+
+div#elementos {
+    background-image: url('mond-melhor.jpg');
+    background-repeat: no-repeat;
+    background-position: center unset;
+    background-size: cover;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 5px;
+    
+}
+.menu a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+section.anemo {
+    background-color:  rgb(148, 255, 255);
+    margin: -8px;
+    padding: 70px;
+}
+section.anemo > p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 600px;
+    margin-left: 350px;
+}
+
+section.electro {
+    background-color: rgb(172, 120, 221);
+    margin: -8px;
+    padding: 70px;
+}
+section.electro > p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 600px;
+    margin-left: 350px;
+}
+
+section.geo {
+    background-color: rgb(228, 189, 89);
+    margin: -8px;
+    padding: 70px;
+}
+section.geo > p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 600px;
+    margin-left: 350px;
+}
+
+section#beth {
+    background-image: url('anemo.png');
+    background-size: 300px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+section#aleph {
+    background-image: url('electro.png');
+    background-size: 300px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+section#gimel {
+    background-image: url('geo.png');
+    background-size: 300px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color:  rgb(148, 255, 255);
+    padding: 1px;
+    margin: -8px;
+    text-align: center ;
+}
+
